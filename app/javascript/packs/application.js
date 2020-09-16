@@ -18,3 +18,6 @@ require("channels")
 
 require("trix")
 require("@rails/actiontext")
+
+document.addEventListener('DOMContentLoaded', () => {
+})
