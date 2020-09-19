@@ -6,6 +6,4 @@ class FollowsController < ApplicationController
     redirect_to account_path(params[:account_id])
   end
 
-  
-
 end
