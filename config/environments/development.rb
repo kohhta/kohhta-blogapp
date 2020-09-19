@@ -39,18 +39,14 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :letter_opener_web
   config.action_mailer.perform_deliveries = true
 
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true 
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.smtp_settings = {
-    :enable_starttls_auto => true,
-    :address => "smtp.sendgrid.net",
+  ActionMailer::Base.smtp_settings = {
+    :user_name => ENV['SENDGRID_USERNAME'],
+    :password => ENV['SENDGRID_PASSWORD'],
+    :domain => 'yourdomain.com',
+    :address => 'smtp.sendgrid.net',
     :port => 587,
-    :domain => 'smtp.sendgrid.net',
-    :user_name => "apikey",
-    :password => "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",
-    :authentication => :plain
+    :authentication => :plain,
+    :enable_starttls_auto => true
   }
 
   # Print deprecation notices to the Rails logger.
