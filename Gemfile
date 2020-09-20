@@ -29,6 +29,7 @@ gem 'devise'
 gem 'faker'
 gem 'hamlit'
 gem 'aws-sdk-s3', require: false
+gem 'sidekiq'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -49,9 +50,6 @@ group :development, :test do
   gem 'rubocop-rails'
   gem 'dotenv-rails'
 end
-
-
-
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
