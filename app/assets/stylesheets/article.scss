@@ -31,6 +31,11 @@ $container-padding: 16px;
     font-size: 16px;
   }
 
+  &_category{
+    color: #8AC542;
+    font-weight: bold;
+
+  }
   &_title {
     font-size: 22px;
   }
@@ -79,10 +84,7 @@ $container-padding: 16px;
 }
 
 .profile_gobtn {
-  color :$primary-color;
-  a:hover {
-    color: indianRed;
-    text-decoration: inherit;
-  }
+  color :#8AC542;
+  font-weight: bold;
 }
       
