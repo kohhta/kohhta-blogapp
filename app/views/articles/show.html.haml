@@ -7,8 +7,9 @@
     =link_to account_path(@article.user) do
       = image_tag @article.user.avatar_image
     %div
-      %p= @article.author_name
-      %p= @article.display_created_at
+      =link_to account_path(@article.user) do
+        %p= @article.author_name
+        %p= @article.display_created_at
     - if user_signed_in? && current_user.has_written?(@article)
       .article_detail_actions
         .dropdown
@@ -24,6 +25,10 @@
     .article_heart.hidden.inactive-heart
       = image_tag 'heart.svg'
 
+    =link_to account_path(@article.user) do
+      .profile_gobtn= I18n.t('articles.profile_btn')
+      -# プロフィールはこちらから多言語化
+ 
 .article
   %h2= I18n.t('articles.comment_list')
   .comments-container

@@ -63,6 +63,9 @@ $container-padding: 16px;
     padding: 24px 0 32px;
   }
 
+  
+  
+
   &_heart {
     position: absolute;
     right: 16px;
@@ -74,3 +77,12 @@ $container-padding: 16px;
     }
   }
 }
+
+.profile_gobtn {
+  color :$primary-color;
+  a:hover {
+    color: indianRed;
+    text-decoration: inherit;
+  }
+}
+      
