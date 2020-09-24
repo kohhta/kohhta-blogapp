@@ -5,3 +5,10 @@ ja:
       female: '女性'
       other: 'その他'
       unknown: '未入力'
+    categories:
+      trackmaker: '楽曲提供'
+      singer: '歌い手募集'
+      memberswanted: 'メンバー募集'
+      other: 'その他'
+
+
