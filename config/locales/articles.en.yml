@@ -2,3 +2,6 @@ en:
   articles:
     comment_list: 'Comment list'
     profile_btn: 'Click here for profile'
+    list_articles: 'List of Articles'
+    list_timeline: 'Time Line'
+    add_comments: 'Add comment'

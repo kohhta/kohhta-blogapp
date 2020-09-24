@@ -5,3 +5,8 @@ en:
       female: 'female'
       other: 'other'
       unknown: 'unknown'
+    categories:
+      trackmaker: 'Music provider'
+      singer: 'Recruitment of singers'
+      memberswanted: 'Members Wanted'
+      other: 'Other'

@@ -1,7 +1,11 @@
 .tabs
   .tabs_item{class: "#{add_active_class(root_path)}"}
-    = link_to '募集記事一覧', root_path 
+    = link_to root_path do
+      .list_articles= I18n.t('articles.list_articles')
   .tabs_item{class: "#{add_active_class(timeline_path)}"}
-    = link_to 'タイムライン', timeline_path 
+    = link_to timeline_path do
+      .list_timeline= I18n.t('articles.list_timeline')
+
+
       
 
