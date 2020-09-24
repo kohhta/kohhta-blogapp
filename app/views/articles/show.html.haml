@@ -25,6 +25,10 @@
     .article_heart.hidden.inactive-heart
       = image_tag 'heart.svg'
 
+    =link_to account_path(@article.user) do
+      .profile_gobtn= I18n.t('articles.profile_btn')
+      -# プロフィールはこちらから多言語化
+ 
 .article
   %h2= I18n.t('articles.comment_list')
   .comments-container
