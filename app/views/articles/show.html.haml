@@ -2,8 +2,8 @@
   - if @article.eyecatch.attached?
     .article_image 
       = image_tag @article.eyecatch
-    .article_category
-      #{I18n.t("enum.categories.#{@article.category}")}
+  .article_category
+    #{I18n.t("enum.categories.#{@article.category}")}
   %h1.article_title= @article.title
   .article_detail
     =link_to account_path(@article.user) do
