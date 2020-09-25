@@ -5,7 +5,7 @@
         = image_tag article.eyecatch
     .card_content
       .article_category
-        #{I18n.t("enum.categories.#{article.category}")}
+        #{I18n.t("enum.categories.#{@article.category}")}
       .card_title
         = article.title
       .card_heart
