@@ -9,7 +9,7 @@ module UserDecorator
     if profile&.avatar&.attached?
       profile.avatar
     else
-      'default-avatar.png'
+      'Oval4.svg'
     end
   end
 end
