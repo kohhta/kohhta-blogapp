@@ -1,6 +1,17 @@
 # サービス概要
 ## Musicmatch
 
+## URL
+https://kohhta-blog-app-test.herokuapp.com/
+
+```
+テストユーザーアカウント
+
+メールアドレス：demo2@gmail.com
+パスワード： exk10317
+
+```
+
 ## ①現状での問題、開発経緯
 自分が音楽活動をしていた際に感じたのは、
 - 自分で作曲できない歌い手、シンガーの多さ
