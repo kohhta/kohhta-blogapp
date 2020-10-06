@@ -13,8 +13,8 @@ https://kohhta-blog-app-test.herokuapp.com/
 ```
 
 ## 開発環境
-ruby 2.6.5
-Rails 6.0.3.2
+- ruby 2.6.5
+- Rails 6.0.3.2
 
 
 ## ①現状での問題、開発経緯
