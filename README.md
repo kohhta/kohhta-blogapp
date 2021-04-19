@@ -7,8 +7,8 @@ https://kohhta-blog-app-test.herokuapp.com/
 ```
 テストユーザーアカウント
 
-メールアドレス：demo2@gmail.com
-パスワード： exk10317
+メールアドレス：test123@gmail.com
+パスワード： hogehoge
 
 ```
 
